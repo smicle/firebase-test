@@ -39,7 +39,12 @@
       "@vue/prettier",
       "@vue/typescript"
     ],
-    "rules": {},
+    "rules": {
+      "semi": ["warn", "never"],
+      "block-spacing": ["warn", "never"],
+      "quotes": ["warn", "single"],
+      "comma-dangle": ["warn", "always-multiline"]
+    },
     "parserOptions": {
       "parser": "@typescript-eslint/parser"
     }
