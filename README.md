@@ -3,7 +3,7 @@
 ## execution command
 
 ```
-npm install -g vue-cli
+npm install -g @vue/cli
 npm install -g yarn
 npm install -g firebase-tools
 ```
