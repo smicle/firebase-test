@@ -18,6 +18,8 @@ firebase open hosting:site
 ```
 
 ## link
+[vue.js + typescript = vue.ts ことはじめ - Qiita](https://qiita.com/nrslib/items/be90cc19fa3122266fd7)  
+[クイックスタート — Vuetify.js](https://vuetifyjs.com/ja/getting-started/quick-start#vue-cli-3-install)  
 [practice-smicle – Firebase – Firebase console](https://console.firebase.google.com/u/1/project/practice-smicle/overview)  
 [Firebaseの始め方](https://qiita.com/kohashi/items/43ea22f61ade45972881)  
 [Node.js によるアプリを Firebase で Hosting する最短の道 - Qiita](https://qiita.com/Satachito/items/c175645644af759cc71c)  
