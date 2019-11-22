@@ -3,8 +3,12 @@
 ## execution command
 
 ```
+npm install -g vue-cli
+npm install -g yarn
 npm install -g firebase-tools
+```
 
+```
 firebase login
 firebase init hosting
 
@@ -12,7 +16,6 @@ firebase serve
 firebase deploy
 firebase open hosting:site
 ```
-
 
 ## link
 [practice-smicle – Firebase – Firebase console](https://console.firebase.google.com/u/1/project/practice-smicle/overview)  
