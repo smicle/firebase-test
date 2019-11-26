@@ -5,7 +5,7 @@
       <MyButton :greet="greetText" @click="onMyButtonClicked"></MyButton>
     </p>
     <p>
-      <ResetButton initialValue="Hello" v-model="greetText"></ResetButton>
+      <ResetButton v-model="greetText"></ResetButton>
     </p>
   </div>
 </template>
@@ -21,10 +21,13 @@ import ResetButton from '@/components/ResetButton.vue'
     ResetButton,
   },
 })
-export default class Home extends Vue {
-  public greetText: string = 'Hello'
 
-  public onMyButtonClicked() {
+export default class Home extends Vue {
+  private count = 0
+  public greetText = 'Hello'
+
+  public onMyButtonClicked(c: number) {
+    this.count = c
     this.greetText = 'こんにちは'
   }
 }
