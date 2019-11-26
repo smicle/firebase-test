@@ -1,6 +1,8 @@
 <template>
   <div class="home">
     <p>{{ greetText }}</p>
+    <p>挨拶した回数：{{ count }}回</p>
+    <p v-if="isRegulars">いつもありがとうございます</p>
     <p>
       <MyButton :greet="greetText" @click="onMyButtonClicked"></MyButton>
     </p>
@@ -25,6 +27,10 @@ import ResetButton from '@/components/ResetButton.vue'
 export default class Home extends Vue {
   private count = 0
   public greetText = 'Hello'
+
+  public get isRegulars(): boolean {
+    return this.count >= 5
+  }
 
   public onMyButtonClicked(c: number) {
     this.count = c
