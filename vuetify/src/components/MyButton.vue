@@ -1,5 +1,5 @@
 <template>
-  <button @click="onClick">MyButton</button>
+  <button @click="onClick"><slot></slot></button>
 </template>
 
 <script lang="ts">
@@ -17,8 +17,7 @@ export default class MyButton extends Vue {
 
   public onClick() {
     alert(this.greet)
-    this.count++
-    this.click(this.count)
+    this.click(++this.count)
   }
 
   public countReset() {
