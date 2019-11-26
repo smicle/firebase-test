@@ -30,38 +30,6 @@
     "typescript": "~3.5.3",
     "vue-template-compiler": "^2.6.10"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "@vue/prettier",
-      "@vue/typescript"
-    ],
-    "rules": {
-      "semi": [
-        "warn",
-        "never"
-      ],
-      "block-spacing": [
-        "warn",
-        "never"
-      ],
-      "quotes": [
-        "warn",
-        "single"
-      ],
-      "comma-dangle": [
-        "warn",
-        "always-multiline"
-      ]
-    },
-    "parserOptions": {
-      "parser": "@typescript-eslint/parser"
-    }
-  },
   "postcss": {
     "plugins": {
       "autoprefixer": {}

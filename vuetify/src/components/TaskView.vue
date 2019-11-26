@@ -25,7 +25,7 @@
 
 <script lang="ts">
 import {Component, Emit, Prop, Vue} from 'vue-property-decorator'
-import {task} from '../views/Home.vue'
+import {task} from '../views/Todo.vue'
 
 @Component
 export default class TaskView extends Vue {

@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="todo">
     <InputTask @add="TaskAdd"/>
     <TaskView :tasks="tasks" @state="TaskToggle" @delete="TaskDelete"/>
   </div>
@@ -22,7 +22,7 @@ export interface task {
     InputTask,
   },
 })
-export default class Home extends Vue {
+export default class Todo extends Vue {
   private key = 3
 
   public tasks: task[] = [
