@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <img alt="Vue logo" src="../assets/logo.png" />
     <p>{{ greetText }}</p>
     <p>挨拶した回数：{{ count }}回</p>
     <p v-if="isRegulars">いつもありがとうございます</p>
