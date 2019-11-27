@@ -24,6 +24,9 @@ firebase open hosting:site
   - [Vuetifyを使ってToDoアプリをちょっとかっこよくする - Qiita](https://qiita.com/rerere0101/items/7c17f320a4583f1d2c2e#_reference-2111903f298a2bd1f260)
   - [Vue.js と TypeScript で Todo リストアプリを実装した - Qiita](https://qiita.com/Nossa/items/b2e38bea4bda87a1de12)
   - [Vue.js + Firebase を使って爆速でユーザ認証を実装する - Qiita](https://qiita.com/sin_tanaka/items/ea149a33bd9e4b388241)
+  - [javascript - Vue, Vuetify is not properly initialized - Stack Overflow](https://stackoverflow.com/questions/57291304/vue-vuetify-is-not-properly-initialized)
+  - [Alert component — Vuetify.js](https://vuetifyjs.com/ja/components/alerts)
+  - [vue init と vue createの違い - Qiita](https://qiita.com/teraco/items/74a6104d3e201c4f654e)
 
 [practice-smicle – Firebase – Firebase console](https://console.firebase.google.com/u/1/project/practice-smicle/overview)  
 [Firebaseの始め方](https://qiita.com/kohashi/items/43ea22f61ade45972881)  
