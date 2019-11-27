@@ -1,7 +1,7 @@
 <template>
   <div class="todo">
-    <InputTask @add="TaskAdd"/>
-    <TaskView :tasks="tasks" @state="TaskToggle" @delete="TaskDelete"/>
+    <InputTask @add="TaskAdd" />
+    <TaskView :tasks="tasks" @state="TaskToggle" @delete="TaskDelete" />
   </div>
 </template>
 
@@ -26,9 +26,9 @@ export default class Todo extends Vue {
   private key = 3
 
   public tasks: task[] = [
-    {id: 1, name: 'No1', state: false},
-    {id: 2, name: 'No2', state: true},
-    {id: 3, name: 'No3', state: false},
+    {id: 1, name: '島村卯月', state: false},
+    {id: 2, name: '渋谷凛', state: true},
+    {id: 3, name: '本田未央', state: false},
   ]
 
   private A_I(): number {

@@ -1,9 +1,15 @@
 <template>
   <div class="InputTask">
-    <form @submit.prevent="addTask(taskname)">
-      <input type="text" v-model="taskname" placeholder="input the task" />
-      <button @click.prevent="addTask(taskname)">追加</button>
-    </form>
+    <v-form ref="form" @submit.prevent="addTask(taskname)">
+      <v-layout class="add-area" row wrap align-center>
+        <v-flex md4>
+          <v-text-field v-model="taskname" placeholder="input the task"></v-text-field>
+        </v-flex>
+        <v-flex md1>
+          <v-btn @click.prevent="addTask(taskname)" color="success" dark>追加</v-btn>
+        </v-flex>
+      </v-layout>
+    </v-form>
   </div>
 </template>
 
@@ -39,5 +45,8 @@ export default class InputTask extends Vue {
   padding: 0.5rem 1.5rem;
   margin-top: 1rem;
   text-decoration: none;
+}
+.add-area {
+  margin-left: 20px;
 }
 </style>
