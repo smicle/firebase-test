@@ -12,6 +12,7 @@
     "@types/ajv": "^1.0.0",
     "ajv": "^6.10.2",
     "core-js": "^3.3.2",
+    "firebase": "^7.5.0",
     "material-design-icons-iconfont": "^5.0.1",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
