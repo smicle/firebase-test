@@ -1,5 +1,6 @@
 <template>
-  <div class="home">
+  <div class="hello">
+    <img alt="Vue logo" src="../assets/logo.png" />
     <p>{{ greetText }}</p>
     <p>挨拶した回数：{{ count }}回</p>
     <p v-if="isRegulars">いつもありがとうございます</p>
@@ -23,7 +24,7 @@ import ResetButton from '@/components/ResetButton.vue'
     ResetButton,
   },
 })
-export default class Home extends Vue {
+export default class Hello extends Vue {
   private count = 0
   public greetText = 'Hello'
 
@@ -33,7 +34,7 @@ export default class Home extends Vue {
 
   @Watch('count')
   public countChanged() {
-    if (this.count === 5) alert('常連になりました')
+    if (this.count === 5) console.log('常連になりました')
   }
 
   public onMyButtonClicked(c: number) {
