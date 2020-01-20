@@ -24,6 +24,7 @@ firebase open hosting:site
   - [Vuetifyを使ってToDoアプリをちょっとかっこよくする - Qiita](https://qiita.com/rerere0101/items/7c17f320a4583f1d2c2e#_reference-2111903f298a2bd1f260)
   - [Vue.js と TypeScript で Todo リストアプリを実装した - Qiita](https://qiita.com/Nossa/items/b2e38bea4bda87a1de12)
   - [Vue.js + Firebase を使って爆速でユーザ認証を実装する - Qiita](https://qiita.com/sin_tanaka/items/ea149a33bd9e4b388241)
+  - [Vue.js to TypeScriptの書き方一覧 - Qiita](https://qiita.com/ryo2132/items/4d43209ea89ad1297426)
 
 [practice-smicle – Firebase – Firebase console](https://console.firebase.google.com/u/1/project/practice-smicle/overview)  
 [Firebaseの始め方](https://qiita.com/kohashi/items/43ea22f61ade45972881)  
