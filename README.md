@@ -27,6 +27,7 @@ firebase open hosting:site
   - [javascript - Vue, Vuetify is not properly initialized - Stack Overflow](https://stackoverflow.com/questions/57291304/vue-vuetify-is-not-properly-initialized)
   - [Alert component — Vuetify.js](https://vuetifyjs.com/ja/components/alerts)
   - [vue init と vue createの違い - Qiita](https://qiita.com/teraco/items/74a6104d3e201c4f654e)
+  - [Vue.js to TypeScriptの書き方一覧 - Qiita](https://qiita.com/ryo2132/items/4d43209ea89ad1297426)
 
 [practice-smicle – Firebase – Firebase console](https://console.firebase.google.com/u/1/project/practice-smicle/overview)  
 [Firebaseの始め方](https://qiita.com/kohashi/items/43ea22f61ade45972881)  
