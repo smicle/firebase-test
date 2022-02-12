@@ -10,7 +10,7 @@
   "dependencies": {
     "@mdi/font": "^4.6.95",
     "@types/ajv": "^1.0.0",
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "core-js": "^3.3.2",
     "firebase": "^7.5.0",
     "material-design-icons-iconfont": "^5.0.1",
